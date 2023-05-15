@@ -1,0 +1,36 @@
+class BankSystem(object):
+    def __init__(self):
+        self.customers_list = []
+        self.bank_data()
+
+def bank_database(self):
+       
+        User_1 = User("Julian", "1234", ["265" "Husn" "192" "Tennese"])
+        account_num = 1234
+        act_1 = Account(5000.00, account_num)
+        user_1.open_account(act_1)
+        self.users_list.append(user_1)
+
+        user_2 = User("David", "3870", ["273" "comal" "256" "Texas"])
+        account_num = 3870
+        act_2 = Account(3200.00, account_num)
+        user_2.open_account(act_2)
+        self.users.append(user_2)
+
+        user_3 = User("Brice", "6472", ["546" "Bogota" "425" "Colorado"])
+        account_num = 6472
+        act_3 = Account(18000.00, account_num)
+        user_3.open_account(act_3)
+        self.users_list.append(user_3)
+
+        user_4 = User("Isabella", "5678", ["1851" "Santa Fe" "526" "New York"])
+        account_num = 5678
+        act_4 = Account(18000.00, account_num)
+        user_4.open_account(act_4)
+        self.users_list.append(user_4)
+
+        user_5 = User("Rene", "7891", ["1345" "Bean Rice" "572" "New York"])
+        account_num = 7891
+        act_5 = Account(0, account_num)
+        user_5.open_account(act_5)
+        self.users_list.append(user_5)
